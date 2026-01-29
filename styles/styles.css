@@ -1,0 +1,33 @@
+.container{
+    background-color: var(--Yellow);    
+    height: 812px;
+    width: 375px;
+    
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    
+    background-color: var(--White);
+    height: 501px;
+    width: 327px;
+   
+    img{
+        height: 200px;
+        width: 279px;
+    }
+    
+    .tag{
+        height: 26px;
+        width: 73px;
+        background-color: var(--Yellow); 
+    }
+    .author{
+        display: flex;
+        img{
+            height: 32px;
+            width: 32px;
+        }
+    }
+}
