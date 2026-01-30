@@ -8,16 +8,17 @@
     align-items: center;
 }
 
-.content{
+.content{    
+    height: 501px;
+    width: 327px;
     display: flex;
     flex-direction: column;
+    border: 1px solid var(--Gray-950);
+    box-sizing: border-box;    
     border-radius: 20px;
     padding: var(--space-300);
     background-color: var(--White);
-    height: 501px;
-    width: 327px;
     box-shadow: 8px 8px 0px rgba(0, 0, 0, 100%);
-
     img{
         height: 200px;
         width: 279px;
@@ -78,7 +79,7 @@
     }
     
     .content{
-        height: 552px;
+        height: 522px;
         width: 384px;
         font-size: calc(1rem+2px);
         img{
