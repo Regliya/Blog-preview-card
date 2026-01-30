@@ -21,8 +21,16 @@
     img{
         height: 200px;
         width: 279px;
-        object-fit: cover;
         border-radius: 10px;
+        object-fit: cover;
+        
+        /*  
+            object-fit: contain; 保持其宽高比，同时使图像适合其内容框
+            object-fit: cover; 保持其宽高比，同时使图像填充其内容框
+            object-fit: fill; 不保持其宽高比，拉伸图像以填充其内容框
+            object-fit: none; 保持其原始大小，不进行缩放
+            object-fit: scale-down; 将图像缩小到适合其内容框的大小，同时保持其宽高比
+        */
     }
     
     .text-box{
