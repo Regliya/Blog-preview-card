@@ -83,3 +83,15 @@ a {
     text-align: left;
     vertical-align: top;
 }
+
+@media (min-width: 1440px){
+    .text-preset-1{
+        font-size: 24px;
+    }
+    .text-preset-2{
+        font-size: 16px;
+    }
+    .text-preset-3, .text-preset-3-bold{
+        font-size: 14px;
+    }
+}
